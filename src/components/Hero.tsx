@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import profile from "../assets/profile.jpg";
+import html from ".././assets/badges/html-essentials.png";
+import js1 from ".././assets/badges/javascript-essentials-1.png";
+
 const Hero = () => {
   const containerVariants = {
     initial: { opacity: 0, y: -50 },
@@ -23,6 +26,19 @@ const Hero = () => {
       transition: { duration: 0.5, ease: "easeOut" },
     },
   };
+
+  const badges = [
+    {
+      id: 1,
+      badges: html,
+      link: "https://www.credly.com/badges/dc4e7889-b82a-40d6-95d7-9b3f544d20cd",
+    },
+    {
+      id: 2,
+      badges: js1,
+      link: "https://www.credly.com/badges/bab74507-407c-4d65-b394-ebf831d5b171",
+    },
+  ];
 
   return (
     <motion.section
@@ -69,6 +85,30 @@ const Hero = () => {
           I'm currently looking for opportunities to work on exciting projects
           and collaborate with talented teams.
         </motion.p>
+
+        <motion.h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">
+          Badges
+        </motion.h2>
+
+        <motion.p className="text-gray-700 leading-relaxed text-sm sm:text-base mb-4">
+          These badges represent my professional achievements and certifications
+          in web development. They validate my commitment to continuous learning
+          and demonstrate my technical proficiency in various development
+          technologies.
+        </motion.p>
+
+        <motion.div className="flex gap-2">
+          {badges.map((badge) => (
+            <a
+              title="Verify Badge?"
+              key={badge.id}
+              href={badge.link}
+              target="_blank"
+            >
+              <motion.img src={badge.badges} className="h-20 w-20" />
+            </a>
+          ))}
+        </motion.div>
       </motion.div>
 
       <motion.div
