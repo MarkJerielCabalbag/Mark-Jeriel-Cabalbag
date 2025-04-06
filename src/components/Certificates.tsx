@@ -4,20 +4,15 @@ import certificate2 from "../assets/sillag.png";
 import certificate3 from "../assets/css.png";
 import certificate4 from "../assets/ciscohtml.png";
 import certificate5 from "../assets/ciscojs1.png";
-import certificate6 from "../assets/tesda1.png";
-import certificate7 from "../assets/tesda2.png";
-import certificate8 from "../assets/tesda3.png";
-import certificate9 from "../assets/tesda4.png";
-import certificate10 from "../assets/tesda5.png";
 
 const Certificates = () => {
   const certificates = [
     {
-      title: "2nd Runner Up - Web Design",
+      title: "2nd Runner Up, Web Design",
       issuer: "12th IT Skills Olympics, University of Makati",
       date: "November 24, 2023",
       description:
-        "A national competion where 60+ Universities and Colleges participated, showcasing their skills in web design and development.",
+        "Achieved recognition in a prestigious national competition involving 50 Universities and Colleges, demonstrating excellence in web design principles, user interface development, and creative problem-solving.",
       certificate: certificate1,
     },
     {
@@ -26,81 +21,33 @@ const Certificates = () => {
         "SILLAG Startup Summit and Hackathon: Ilocos Sur Leg, University of Northern Philippines",
       date: "August 24, 2025",
       description:
-        "A hackathon event where students from various universities collaborated to develop innovative solutions to real-world problems.",
+        "Participated in an intensive hackathon event where teams collaborated to develop innovative solutions for real-world problems, showcasing skills in rapid prototyping and entrepreneurial thinking.",
       certificate: certificate2,
     },
-
     {
       title: "2nd Place, Web Development Competition",
       issuer:
         "CCS Week 2024, Tech Fusion: Blending Boundaries and Igniting Possibilities, ISPSC Sta. Maria Campus",
       date: "June, 7, 2024",
       description:
-        "A competition where students showcased their web development skills and creativity.",
+        "Secured second place by demonstrating proficiency in modern web development technologies, responsive design implementation, and creating user-centric web applications.",
       certificate: certificate3,
     },
-
     {
       title: "HTML Essentials",
       issuer: "Cisco Networking Academy",
       date: "April 4, 2025",
       description:
-        "Completed the couse on HTML Essentials, gaining a solid foundation in web development.",
+        "Mastered fundamental HTML concepts including semantic markup, document structure, accessibility best practices, and modern HTML5 features through Cisco's comprehensive certification program.",
       certificate: certificate4,
     },
-
     {
       title: "Javascript Essentials 1",
       issuer: "Cisco Networking Academy",
       date: "February 12, 2025",
       description:
-        "Completed the couse on JavaScript Essentials 1, gaining a solid foundation in web development.",
+        "Acquired strong foundation in JavaScript programming, covering core concepts such as DOM manipulation, event handling, async programming, and modern ES6+ features.",
       certificate: certificate5,
-    },
-
-    {
-      title: "Installing and Configuring Computer Systems",
-      issuer: "Tesda",
-      date: "February 24, 2025",
-      description:
-        "Completed the coure on Installing and Configuring Computer Systems, gaining practical skills in computer hardware and software.",
-      certificate: certificate6,
-    },
-
-    {
-      title: "Setting Up Computer Servers",
-      issuer: "Tesda",
-      date: "February 24, 2025",
-      description:
-        "Completed the coure on Setting Up Computer Servers, gaining practical skills in server management.",
-      certificate: certificate7,
-    },
-
-    {
-      title: "Maintaining Computer Systems and Networks",
-      issuer: "Tesda",
-      date: "February 24, 2025",
-      description:
-        "Completed the coure on Maintaining Computer Systems and Networks, gaining practical skills in network management.",
-      certificate: certificate8,
-    },
-
-    {
-      title: "Introduction to CSS",
-      issuer: "Tesda",
-      date: "February 24, 2025",
-      description:
-        "Completed the coure on Computer Systems Servicing, gaining practical skills in computer hardware and software.",
-      certificate: certificate9,
-    },
-
-    {
-      title: "Setting Up Computer Networks",
-      issuer: "Tesda",
-      date: "February 24, 2025",
-      description:
-        "Completed the coure on Setting Up Computer Networks, gaining practical skills in network management.",
-      certificate: certificate10,
     },
   ];
   return (
