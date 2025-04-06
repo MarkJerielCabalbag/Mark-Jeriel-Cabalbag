@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import profile from "../assets/profile.jpg";
 import html from ".././assets/badges/html-essentials.png";
 import js1 from ".././assets/badges/javascript-essentials-1.png";
-
+import css from ".././assets/badges/css-essentials.png";
 const Hero = () => {
   const containerVariants = {
     initial: { opacity: 0, y: -50 },
@@ -31,12 +31,17 @@ const Hero = () => {
     {
       id: 1,
       badges: html,
-      link: "https://www.credly.com/badges/dc4e7889-b82a-40d6-95d7-9b3f544d20cd",
+      link: "https://www.credly.com/badges/dc4e7889-b82a-40d6-95d7-9b3f544d20cd/public_url",
     },
     {
       id: 2,
       badges: js1,
-      link: "https://www.credly.com/badges/bab74507-407c-4d65-b394-ebf831d5b171",
+      link: "https://www.credly.com/badges/bab74507-407c-4d65-b394-ebf831d5b171/public_url",
+    },
+    {
+      id: 3,
+      badges: css,
+      link: "https://www.credly.com/badges/22e822b6-e504-468c-8d3f-088740350a5b/public_url",
     },
   ];
 

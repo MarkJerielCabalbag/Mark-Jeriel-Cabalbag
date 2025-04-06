@@ -4,6 +4,7 @@ import certificate2 from "../assets/sillag.png";
 import certificate3 from "../assets/css.png";
 import certificate4 from "../assets/ciscohtml.png";
 import certificate5 from "../assets/ciscojs1.png";
+import certificate6 from "../assets/ciscocss.png";
 
 const Certificates = () => {
   const certificates = [
@@ -19,7 +20,7 @@ const Certificates = () => {
       title: "Finalist, Student Category",
       issuer:
         "SILLAG Startup Summit and Hackathon: Ilocos Sur Leg, University of Northern Philippines",
-      date: "August 24, 2025",
+      date: "August 23, 2024",
       description:
         "Participated in an intensive hackathon event where teams collaborated to develop innovative solutions for real-world problems, showcasing skills in rapid prototyping and entrepreneurial thinking.",
       certificate: certificate2,
@@ -48,6 +49,14 @@ const Certificates = () => {
       description:
         "Acquired strong foundation in JavaScript programming, covering core concepts such as DOM manipulation, event handling, async programming, and modern ES6+ features.",
       certificate: certificate5,
+    },
+    {
+      title: "CSS Essentials",
+      issuer: "Cisco Networking Academy",
+      date: "April 6, 2025",
+      description:
+        "Developed expertise in CSS styling, including flexbox, grid layouts, responsive design, animations, and modern CSS features for creating polished web interfaces.",
+      certificate: certificate6,
     },
   ];
   return (
