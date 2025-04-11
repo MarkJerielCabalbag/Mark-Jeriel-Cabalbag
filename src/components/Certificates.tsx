@@ -5,6 +5,7 @@ import certificate3 from "../assets/css.png";
 import certificate4 from "../assets/ciscohtml.png";
 import certificate5 from "../assets/ciscojs1.png";
 import certificate6 from "../assets/ciscocss.png";
+import certificate7 from "../assets/ibm-web-fundamentals.png";
 
 const Certificates = () => {
   const certificates = [
@@ -57,6 +58,14 @@ const Certificates = () => {
       description:
         "Developed expertise in CSS styling, including flexbox, grid layouts, responsive design, animations, and modern CSS features for creating polished web interfaces.",
       certificate: certificate6,
+    },
+    {
+      title: "Web Dvelopment Fundamentals",
+      issuer: "IBM SKILLSBUILD",
+      date: "April 11, 2025",
+      description:
+        "This credential earner demonstrates knowledge of web development concepts, processes to develop, deploy, and test websites, and the tools and programming languages that web developers use. The individual has a conceptual understanding of how to develop an interactive website using HTML, CSS, and JavaScript in a simulated integrated development environment (IDE). The earner is aware of the job outlook in web development and is familiar with the skills required for success in various roles.",
+      certificate: certificate7,
     },
   ];
   return (

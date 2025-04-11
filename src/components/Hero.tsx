@@ -3,6 +3,7 @@ import profile from "../assets/profile.jpg";
 import html from ".././assets/badges/html-essentials.png";
 import js1 from ".././assets/badges/javascript-essentials-1.png";
 import css from ".././assets/badges/css-essentials.png";
+import webfundamentals from ".././assets/badges/web-development-fundamentals.png";
 const Hero = () => {
   const containerVariants = {
     initial: { opacity: 0, y: -50 },
@@ -42,6 +43,11 @@ const Hero = () => {
       id: 3,
       badges: css,
       link: "https://www.credly.com/badges/22e822b6-e504-468c-8d3f-088740350a5b/public_url",
+    },
+    {
+      id: 4,
+      badges: webfundamentals,
+      link: "https://www.credly.com/badges/a2c351d2-54de-4a25-87e2-d680f3e61f46/public_url",
     },
   ];
 
