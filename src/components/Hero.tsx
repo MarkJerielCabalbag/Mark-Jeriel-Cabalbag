@@ -98,7 +98,7 @@ const Hero = () => {
         </motion.p>
 
         <motion.h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">
-          Badges
+          Digital Credentials
         </motion.h2>
 
         <motion.p className="text-gray-700 leading-relaxed text-sm sm:text-base mb-4">
@@ -137,13 +137,15 @@ const Hero = () => {
           <motion.div className="flex flex-col sm:flex-row justify-between items-start gap-2 sm:gap-0">
             <motion.div>
               <motion.h3 className="text-lg sm:text-xl font-semibold text-gray-900">
-                Web Developer
+                Full Stack Developer Intern
               </motion.h3>
               <motion.h4 className="text-sm sm:text-md font-medium text-gray-500 mt-1">
                 MIS ISPSC Sta. Maria Campus
               </motion.h4>
             </motion.div>
-            <motion.span className="text-sm text-gray-500">2025</motion.span>
+            <motion.span className="text-sm text-gray-500">
+              Jan 27, 2025 - Apr 23, 2025
+            </motion.span>
           </motion.div>
           <motion.ul className="text-gray-700 mt-4 leading-relaxed list-disc pl-5 space-y-2 text-sm sm:text-base">
             <motion.li>
