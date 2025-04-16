@@ -76,7 +76,7 @@ const Hero = () => {
             className="text-gray-500 text-center sm:text-left"
             variants={itemVariants}
           >
-            Frontend Developer & UI/UX Enthusiast
+            Full Stack - JavaScript/TypeScript Developer
           </motion.p>
         </motion.div>
       </motion.div>
