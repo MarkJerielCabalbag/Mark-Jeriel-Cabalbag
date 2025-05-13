@@ -1,17 +1,25 @@
-import Certificates from "./components/Certificates";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Project from "./components/Project";
+import AboutMe from "./components/_new_about_me";
+import NewCredential from "./components/_new_credentials";
+
+import NewHero from "./components/_new_hero";
+import NewProjects from "./components/_new_projects";
+import NewContact from "./components/_new_contact";
+import NewFooter from "./components/_new_footer";
 
 const App = () => {
   return (
-    <div className="px-5 sm:w-[90%]  md:w-[80%] md:mx-auto lg:w-[70%] lg:mx-auto xl:w-[60%] xl:mx-auto 2xl:w-[50%] 2xl:mx-auto">
-      <Hero />
+    <div className="">
+      {/* <Hero />
       <Project />
       <Certificates />
       <Contact />
-      <Footer />
+      <Footer /> */}
+      <NewHero />
+      <AboutMe />
+      <NewCredential />
+      <NewProjects />
+      <NewContact />
+      <NewFooter />
     </div>
   );
 };

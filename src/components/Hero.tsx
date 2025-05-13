@@ -88,7 +88,7 @@ const Hero = () => {
           About me
         </motion.h2>
         <motion.p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-          Hi, I'm Mark Jeriel Cabalbag, a frontend developer with a passion for
+          Hi, I'm Mark Jeriel Cabalbag, a frontend developer with a passi on for
           creating beautiful and functional user interfaces. I love to learn new
           technologies and improve my skills.
         </motion.p>
