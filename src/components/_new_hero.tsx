@@ -1,5 +1,3 @@
-import React from "react";
-
 const NewHero = () => {
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-gray-900 to-black text-white relative overflow-hidden flex items-center justify-center px-4 py-8">

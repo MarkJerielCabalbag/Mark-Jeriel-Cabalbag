@@ -9,11 +9,6 @@ import NewFooter from "./components/_new_footer";
 const App = () => {
   return (
     <div className="">
-      {/* <Hero />
-      <Project />
-      <Certificates />
-      <Contact />
-      <Footer /> */}
       <NewHero />
       <AboutMe />
       <NewCredential />

@@ -1,4 +1,3 @@
-import React from "react";
 import edugemini from "../assets/sample-bg.png";
 import graduate from "../assets/sample-bg-2.png";
 import rfid from "../assets/sample-bg-3.png";

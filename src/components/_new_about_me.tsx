@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutMe = () => {
   return (
     <div className="min-h-screen w-full bg-black p-4 sm:p-8 md:p-16 relative overflow-hidden">

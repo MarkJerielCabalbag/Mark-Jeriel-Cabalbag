@@ -1,5 +1,3 @@
-import React from "react";
-
 const NewFooter = () => {
   return (
     <div className=" bg-black">
