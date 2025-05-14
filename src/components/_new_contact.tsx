@@ -70,7 +70,7 @@ const NewContact = () => {
           </div>
           <div className="flex gap-4">
             <a
-              href="https://drive.google.com/file/d/14ypfhbuFrRX-77iJi7yt_mgFrwsyEFvj/view?usp=sharing"
+              href="https://drive.google.com/file/d/1DgTBjQpMcrY9iYi4xiH44ueJTR3-6WlO/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 sm:px-6 py-2 sm:py-3 border border-white text-white text-sm sm:text-base font-medium rounded-lg hover:bg-white hover:text-black transition-colors"

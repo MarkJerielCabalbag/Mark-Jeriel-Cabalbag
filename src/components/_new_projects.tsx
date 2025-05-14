@@ -211,7 +211,7 @@ const NewProjects = () => {
                   </div>
                 </div>
 
-                <div className="flex-1 space-y-4 md:space-y-6">
+                <div className="flex-1 space-y-4  md:space-y-6">
                   {project.picture && (
                     <img
                       src={project.picture}
