@@ -5,6 +5,7 @@ import webfundamentals from ".././assets/badges/web-development-fundamentals.png
 import certificate1 from "../assets/makati.png";
 import certificate2 from "../assets/sillag.png";
 import certificate3 from "../assets/css.png";
+
 const certifications = [
   {
     title: "HTML Essentials",
@@ -13,6 +14,7 @@ const certifications = [
     description:
       "Mastered HTML fundamentals including semantic markup, document structure, and HTML5 features.",
     certificate: html,
+    link: "https://www.credly.com/badges/dc4e7889-b82a-40d6-95d7-9b3f544d20cd/public_url",
   },
   {
     title: "Javascript Essentials 1",
@@ -21,6 +23,7 @@ const certifications = [
     description:
       "Core JavaScript concepts including DOM manipulation, events, async programming, and ES6+.",
     certificate: js1,
+    link: "https://www.credly.com/badges/bab74507-407c-4d65-b394-ebf831d5b171/public_url",
   },
   {
     title: "CSS Essentials",
@@ -29,6 +32,7 @@ const certifications = [
     description:
       "CSS styling expertise including flexbox, grid, responsive design, and animations.",
     certificate: css,
+    link: "https://www.credly.com/badges/bab74507-407c-4d65-b394-ebf831d5b171/public_url",
   },
   {
     title: "Web Development Fundamentals",
@@ -37,6 +41,7 @@ const certifications = [
     description:
       "Comprehensive web development knowledge covering HTML, CSS, JavaScript, and modern development practices.",
     certificate: webfundamentals,
+    link: "https://www.credly.com/badges/a2c351d2-54de-4a25-87e2-d680f3e61f46/public_url",
   },
 ];
 
@@ -137,16 +142,25 @@ const NewCredential = () => {
                     alt={cert.title}
                     className="w-32 h-32 sm:w-36 sm:h-36 object-contain"
                   />
-                  <div className="flex-1">
+
+                  <div className="flex-1 space-y-4">
                     <h4 className="text-gray-300 text-base sm:text-lg font-semibold mb-2">
                       {cert.title}
                     </h4>
+
                     <p className="text-gray-500 text-sm sm:text-base mb-2 sm:mb-3">
                       {cert.issuer} • {cert.date}
                     </p>
                     <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
                       {cert.description}
                     </p>
+                    <a
+                      href={cert.link}
+                      target="_blank"
+                      className="px-3 md:px-5 py-2 md:py-2.5 bg-blue-500/10 text-blue-400 rounded-full text-xs md:text-sm font-medium hover:bg-blue-500/20 transition-colors"
+                    >
+                      Verify
+                    </a>
                   </div>
                 </div>
               ))}
