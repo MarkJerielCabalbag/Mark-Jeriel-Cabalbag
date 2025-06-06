@@ -1,5 +1,4 @@
 {
-  "homepage": "https://MarkJerielCabalbag.github.io/Mark-Jeriel-Cabalbag",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
