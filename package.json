@@ -1,23 +1,22 @@
 {
+  "homepage": "https://MarkJerielCabalbag.github.io/Mark-Jeriel-Cabalbag",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://MarkJerielCabalbag.github.io/Mark-Jeriel-Cabalbag",
   "scripts": {
     "dev": "vite",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build && cp build/index.html build/404.html"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
     "@tailwindcss/vite": "^4.1.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "gh-pages": "^6.3.0",
     "lucide-react": "^0.487.0",
     "motion": "^12.6.3",
     "react": "^19.0.0",
@@ -35,6 +34,7 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
