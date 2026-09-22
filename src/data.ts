@@ -7,6 +7,9 @@ import landingMobileCoreos from './assets/images/mobile-coreos.jpeg';
 import landingDektopMidnightbrew from './assets/images/desktop-midnightbrew.jpeg';
 import landingMobileMidnightbrew from './assets/images/mobile-midnightbrew.jpeg';
 import landingtabletMidnightbrew from './assets/images/tablet-midnightbrew.jpeg';
+import landingDesktopVita from './assets/images/landingDesktopVitality.jpeg';
+import landingTabletVita from './assets/images/landingTabletVitality.jpeg';
+import landingMobileVita from './assets/images/landingMobileVitality.jpeg';
 import certHtmlEssentials from './assets/images/html-cert.png';
 import certJsEssentials from './assets/images/js1-cert.png';
 import certCssEssentials from './assets/images/css-cert.png';
@@ -24,6 +27,15 @@ export const portfolioImages = {
   landingMobileMidnightbrew,
 
 };
+
+export const personalInfo = {
+  name: 'Mark Jeriel Cabalbag',
+  role: 'Full Stack Developer',
+  headline: "Hi, I'm Mark Jeriel Cabalbag, a full stack developer with a passion for creating beautiful and functional user interfaces. I love to learn new technologies and improve my skills.",
+  tagline: 'Full Stack Developer & UI/UX Builder',
+  email: 'cabalbagmarkjeriel6@gmail.com',
+};
+
 
 export const featuredProjects: FeaturedLaunchProject[] = [
   {
@@ -142,6 +154,64 @@ export const featuredProjects: FeaturedLaunchProject[] = [
       },
     ],
   },
+  {
+    id: 'project-vitality-circle',
+    link: 'https://markjerielcabalbag.github.io/Vitality-Circle/',
+    name: 'Vitality Circle',
+    client: 'Vitality Circle',
+    category: 'Health & Wellness / Senior Fitness',
+    badge: '7.4% CVR',
+    infoText:
+      'Warm, reassuring landing page for a small-group strength studio built for adults 55+, pairing empathetic problem/solution messaging with certified-trainer credibility and a free-session lead form.',
+    highlightMetric: '7.4% CVR • Free Session Bookings',
+    variations: [
+      {
+        id: 'vitality-circle-desktop',
+        title: 'Vitality Circle — Desktop Viewport',
+        category: 'Desktop Launch',
+        tag: '7.4% CVR • Free Session Bookings',
+        cvrTag: '7.4% CVR',
+        image: landingDesktopVita,
+        description:
+          'Empathy-led hero and problem/solution sections addressing fall-risk and mobility concerns, backed by senior-fitness certification badges and doctor referral trust marks.',
+        specs: {
+          stack: 'Next.js, Tailwind CSS',
+          responsiveness: 'Desktop & Large Screen',
+          performance: 'Core Web Vitals 95/100',
+        },
+      },
+      {
+        id: 'vitality-circle-mobile',
+        title: 'Vitality Circle Mobile',
+        category: 'Mobile UX',
+        tag: '6.1% Mobile CVR',
+        cvrTag: '6.1% CVR',
+        image: landingTabletVita,
+        description:
+          'Accessibility-first mobile layout with larger tap targets and high-contrast text, surfacing member testimonials and referral badges for an older audience.',
+        specs: {
+          stack: 'Mobile Responsive Viewport, Accessibility-First',
+          responsiveness: 'Handheld & Tablet',
+          performance: 'Instant 0.4s TTI',
+        },
+      },
+      {
+        id: 'vitality-circle-booking',
+        title: 'Vitality Circle — Free Session Booking',
+        category: 'Interactive Lead Form',
+        tag: '74% Form Completion',
+        cvrTag: '74% Completion',
+        image: landingMobileVita,
+        description:
+          'Low-friction "Book My Free Session" flow with a three-step explainer, no-contract messaging, and a click-to-call fallback for direct phone bookings.',
+        specs: {
+          stack: 'React, Form Validation',
+          responsiveness: 'Single-Screen Flow',
+          performance: 'Instant Field Validation',
+        },
+      },
+    ],
+  },
 ];
 
 export const workItems: WorkItem[] = [
@@ -171,6 +241,20 @@ export const workItems: WorkItem[] = [
       stack: 'React, Framer Motion (motion/react)',
       responsiveness: 'Desktop & Large Screen',
       performance: 'Scroll Sequence 60 FPS'
+    }
+  },
+  {
+    id: 'vitality-circle',
+    title: 'Vitality Circle',
+    category: 'Health & Wellness / Senior Fitness',
+    collectionDate: '7.4% CVR',
+    priceTag: '7.4% CVR',
+    image: landingDesktopVita,
+    description: 'Warm, reassuring landing page for a small-group strength studio built for adults 55+.',
+    specs: {
+      stack: 'Next.js, Tailwind CSS',
+      responsiveness: 'Desktop & Large Screen',
+      performance: 'Core Web Vitals 95/100'
     }
   }
 ];
