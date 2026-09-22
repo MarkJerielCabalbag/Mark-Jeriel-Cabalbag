@@ -10,6 +10,9 @@ import landingtabletMidnightbrew from './assets/images/tablet-midnightbrew.jpeg'
 import landingDesktopVita from './assets/images/landingDesktopVitality.jpeg';
 import landingTabletVita from './assets/images/landingTabletVitality.jpeg';
 import landingMobileVita from './assets/images/landingMobileVitality.jpeg';
+import landingDesktopFlowGuard from './assets/images/landingDesktopFlowguard.jpeg';
+import landingTabletFlowGuard from './assets/images/landingTabletFlowguard.png';
+import landingMobileFlowGuard from './assets/images/landingMobileFlowguard.png';
 import certHtmlEssentials from './assets/images/html-cert.png';
 import certJsEssentials from './assets/images/js1-cert.png';
 import certCssEssentials from './assets/images/css-cert.png';
@@ -210,6 +213,65 @@ export const featuredProjects: FeaturedLaunchProject[] = [
           performance: 'Instant Field Validation',
         },
       },
+      
+    ],
+  },
+  {
+    id: 'project-flowguard',
+    link: 'https://markjerielcabalbag.github.io/FlowGuard/',
+    name: 'FlowGuard Co.',
+    client: 'FlowGuard Co.',
+    category: 'Home Services / Emergency Plumbing',
+    badge: '4.9 ★ CVR',
+    infoText:
+      'High-converting emergency and residential plumbing landing page targeting the Greater Austin area with 45-minute dispatch guarantees, upfront flat-rate pricing, and trust-first social proof.',
+    highlightMetric: '4.9 ★ Rating • 480+ Austin Reviews',
+    variations: [
+      {
+        id: 'flowguard-desktop',
+        title: 'FlowGuard Co. — Desktop Viewport',
+        category: 'Desktop Launch',
+        tag: '4.9 ★ Rating • 480+ Reviews',
+        cvrTag: '45-Min Dispatch',
+        image: landingDesktopFlowGuard,
+        description:
+          'Trust-centered conversion layout emphasizing 45-minute emergency response times, upfront flat pricing approval, master license credentials, and clear service category breakdowns.',
+        specs: {
+          stack: 'Next.js, Tailwind CSS',
+          responsiveness: 'Desktop & Large Screen',
+          performance: 'Core Web Vitals 98/100',
+        },
+      },
+      {
+        id: 'flowguard-mobile',
+        title: 'FlowGuard Co. — Mobile Dispatch UX',
+        category: 'Mobile UX',
+        tag: '24/7 Rapid Call',
+        cvrTag: '60s Booking',
+        image: landingTabletFlowGuard,
+        description:
+          'Mobile-optimized dispatch interface featuring immediate tap-to-call headers, 60-second booking flows, and real-time arrival tracking notifications.',
+        specs: {
+          stack: 'Mobile Responsive Viewport',
+          responsiveness: 'Handheld & Mobile',
+          performance: 'Instant 0.2s TTI',
+        },
+      },
+      {
+        id: 'flowguard-services',
+        title: 'FlowGuard Co. — Service Solutions & Trust Marks',
+        category: 'Service Showcase',
+        tag: '6 Core Services',
+        cvrTag: '12-Month Guarantee',
+        image: landingMobileFlowGuard,
+        description:
+          'Comprehensive breakdown of specialized plumbing solutions alongside verified Austin neighborhood case studies, transparent FAQs, and 12-month ironclad warranty details.',
+        specs: {
+          stack: 'React, Interactive Grid',
+          responsiveness: 'Adaptive Grid Layout',
+          performance: 'Optimized Asset Loading',
+        },
+      },
     ],
   },
 ];
@@ -255,6 +317,20 @@ export const workItems: WorkItem[] = [
       stack: 'Next.js, Tailwind CSS',
       responsiveness: 'Desktop & Large Screen',
       performance: 'Core Web Vitals 95/100'
+    }
+  },
+  {
+    id: 'flowguard',
+    title: 'FlowGuard Co.',
+    category: 'Home Services / Emergency Plumbing',
+    collectionDate: '4.9 ★ Rating',
+    priceTag: '4.9 ★ Rating',
+    image: landingDesktopFlowGuard,
+    description: 'High-converting emergency and residential plumbing landing page targeting the Greater Austin area.',
+    specs: {
+      stack: 'Next.js, Tailwind CSS',
+      responsiveness: 'Desktop & Large Screen',
+      performance: 'Core Web Vitals 98/100'
     }
   }
 ];
