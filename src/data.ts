@@ -10,9 +10,9 @@ import landingtabletMidnightbrew from './assets/images/tablet-midnightbrew.jpeg'
 import landingDesktopVita from './assets/images/landingDesktopVitality.jpeg';
 import landingTabletVita from './assets/images/landingTabletVitality.jpeg';
 import landingMobileVita from './assets/images/landingMobileVitality.jpeg';
-import landingDesktopFlowGuard from './assets/images/landingDesktopFlowguard.jpeg';
-import landingTabletFlowGuard from './assets/images/landingTabletFlowguard.png';
-import landingMobileFlowGuard from './assets/images/landingMobileFlowguard.png';
+import landingDesktopFlowGuard from './assets/images/landingDesktopFlowGuard.jpeg';
+import landingTabletFlowGuard from './assets/images/landingTabletFlowGuard.png';
+import landingMobileFlowGuard from './assets/images/landingMobileFlowGuard.png';
 import certHtmlEssentials from './assets/images/html-cert.png';
 import certJsEssentials from './assets/images/js1-cert.png';
 import certCssEssentials from './assets/images/css-cert.png';
