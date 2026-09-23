@@ -26,6 +26,10 @@ import landingDesktopFieldstoneLandscape from './assets/images/landingDesktopFie
 import landingTabletFieldstoneLandscape from './assets/images/landingTabletFieldstoneLandscape.jpeg';
 import landingMobileFieldstoneLandscape from './assets/images/landingMobileFieldstoneLandscape.jpeg';
 
+import landingDesktopHarlowPine from './assets/images/landingDesktopHarlow.jpeg';
+import landingTabletHarlowPine from './assets/images/landingTabletHarlow.jpeg';
+import landingMobileHarlowPine from './assets/images/landingMobileHarlow.jpeg';
+
 import certHtmlEssentials from './assets/images/html-cert.png';
 import certJsEssentials from './assets/images/js1-cert.png';
 import certCssEssentials from './assets/images/css-cert.png';
@@ -224,6 +228,64 @@ export const featuredProjects: FeaturedLaunchProject[] = [
           stack: 'React, Interactive Grid',
           responsiveness: 'Single-Screen Flow',
           performance: 'Instant Field Validation',
+        },
+      },
+    ],
+  },
+  {
+    id: 'project-harlow-pine',
+    link: 'https://markjerielcabalbag.github.io/Harlow---Pine-Realty/',
+    name: 'Harlow & Pine',
+    client: 'Harlow & Pine Realty',
+    category: 'Real Estate / Broker-Appraiser Advisory',
+    badge: '$140M+ Closed',
+    infoText:
+      'Appraisal-first real estate landing page for a broker-owner and former certified residential appraiser, pairing defensible valuation science with a filterable Marion & Northern Indy property portfolio and direct-to-broker booking.',
+    highlightMetric: '$140M+ Closed Volume • 9 Years in Indy',
+    variations: [
+      {
+        id: 'harlow-pine-desktop',
+        title: 'Harlow & Pine — Desktop Viewport',
+        category: 'Desktop Launch',
+        tag: '$140M+ Closed Volume',
+        cvrTag: '100% Appraisal Backed',
+        image: landingDesktopHarlowPine,
+        description:
+          'Confidence-led hero into a certified appraisal-grade valuation pitch, a filterable 6-listing portfolio with per-property appraisal analysis, and a traditional-agent-vs-Harlow-&-Pine comparison table.',
+        specs: {
+          stack: 'HTML, CSS, JavaScript',
+          responsiveness: 'Desktop & Large Screen',
+          performance: 'Optimized Desktop Experience',
+        },
+      },
+      {
+        id: 'harlow-pine-mobile',
+        title: 'Harlow & Pine Mobile',
+        category: 'Mobile UX',
+        tag: '9+ Years Serving Indy',
+        cvrTag: 'Direct Broker Access',
+        image: landingTabletHarlowPine,
+        description:
+          'Mobile-optimized flow through valuation stats, neighborhood filters, and the appraiser-advantage comparison, built around a direct-call CTA to broker-owner Claire Harlow instead of automated forms.',
+        specs: {
+          stack: 'Mobile Responsive Viewport',
+          responsiveness: 'Handheld & Tablet',
+          performance: 'Optimized Touch Interactions',
+        },
+      },
+      {
+        id: 'harlow-pine-suburbs',
+        title: 'Harlow & Pine — Suburb Filter & Listings',
+        category: 'Interactive Portfolio',
+        tag: '6 Neighborhoods Mapped',
+        cvrTag: 'Live Comp Data',
+        image: landingMobileHarlowPine,
+        description:
+          'Clickable Marion & Northern Indy suburb map with 1-year appreciation and median price data, filtering into appraised listings and recent comps for Carmel, Fishers, Zionsville, Westfield, Meridian-Kessler & Noblesville.',
+        specs: {
+          stack: 'React, Interactive Grid',
+          responsiveness: 'Single-Screen Flow',
+          performance: 'Instant Filter Response',
         },
       },
     ],
@@ -484,6 +546,20 @@ export const workItems: WorkItem[] = [
     priceTag: '5.0 ★ Rating',
     image: landingDesktopFieldstoneLandscape,
     description: 'Craftsman-led masonry landing page for a stonemason-founded landscaping company.',
+    specs: {
+      stack: 'HTML, CSS, JavaScript',
+      responsiveness: 'Desktop & Large Screen',
+      performance: 'Optimized Desktop Experience'
+    }
+  },
+  {
+    id: 'harlow-pine',
+    title: 'Harlow & Pine',
+    category: 'Real Estate / Broker-Appraiser Advisory',
+    collectionDate: '$140M+ Closed',
+    priceTag: '$140M+ Closed',
+    image: landingDesktopHarlowPine,
+    description: 'Appraisal-first real estate landing page for a broker-owner and former certified residential appraiser.',
     specs: {
       stack: 'HTML, CSS, JavaScript',
       responsiveness: 'Desktop & Large Screen',
