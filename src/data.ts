@@ -1,18 +1,27 @@
 import webDesignerHeroImg from './assets/images/web_designer_hero_1790059497552.jpg';
 import studioAvatarMarkImg from './assets/images/studio_profile.jpg';
 import { WorkItem, WorkStep, FeaturedLaunchProject, CertificateItem } from './types';
+
 import landingDesktopCoreos from './assets/images/desktop-coreos.jpeg';
 import landingTabletCoreos from './assets/images/tablet-coreos.jpeg';
 import landingMobileCoreos from './assets/images/mobile-coreos.jpeg';
+
 import landingDektopMidnightbrew from './assets/images/desktop-midnightbrew.jpeg';
 import landingMobileMidnightbrew from './assets/images/mobile-midnightbrew.jpeg';
 import landingtabletMidnightbrew from './assets/images/tablet-midnightbrew.jpeg';
+
 import landingDesktopVita from './assets/images/landingDesktopVitality.jpeg';
 import landingTabletVita from './assets/images/landingTabletVitality.jpeg';
 import landingMobileVita from './assets/images/landingMobileVitality.jpeg';
+
 import landingDesktopFlowGuard from './assets/images/landingDesktopFlowGuard.jpeg';
 import landingTabletFlowGuard from './assets/images/landingTabletFlowGuard.png';
 import landingMobileFlowGuard from './assets/images/landingMobileFlowGuard.png';
+
+import landingDesktopSummitRidgeRoofing from './assets/images/landingDesktopSummitRidgeRoofing.jpeg';
+import landingTabletSummitRidgeRoofing from './assets/images/landingTabletSummitRidgeRoofing.jpeg';
+import landingMobileSummitRidgeRoofing from './assets/images/landingMobileSummitRidgeRoofing.jpeg';
+
 import certHtmlEssentials from './assets/images/html-cert.png';
 import certJsEssentials from './assets/images/js1-cert.png';
 import certCssEssentials from './assets/images/css-cert.png';
@@ -274,7 +283,65 @@ export const featuredProjects: FeaturedLaunchProject[] = [
       },
     ],
   },
-];
+  {
+    id: 'project-summit-ridge',
+    link: 'https://markjerielcabalbag.github.io/Summit-Ridge-Roofing/',
+    name: 'Summit Ridge Roofing',
+    client: 'Summit Ridge Roofing',
+    category: 'Home Services / Residential Roofing',
+    badge: '9.2% CVR',
+    infoText:
+      'Trust-first residential roofing landing page pairing storm-damage education with a free 21-point inspection offer, insurance claim assistance, and a form-free 3-step calendar booking flow.',
+    highlightMetric: '5.0 ★ Rating • 1,850+ Local Homeowners',
+    variations: [
+      {
+        id: 'summit-ridge-desktop',
+        title: 'Summit Ridge Roofing — Desktop Viewport',
+        category: 'Desktop Launch',
+        tag: '5.0 ★ Rating • 1,850+ Homeowners',
+        cvrTag: '9.2% CVR',
+        image: landingDesktopSummitRidgeRoofing,
+        description:
+          'Craftsmanship-focused hero leading into a hidden roof-damage risk breakdown, service tiers, and a free 21-point on-site inspection offer built around direct calendar booking instead of lead forms.',
+        specs: {
+          stack: 'HTML, CSS, JavaScript',
+          responsiveness: 'Desktop & Large Screen',
+          performance: 'Optimized Desktop Experience',
+        },
+      },
+      {
+        id: 'summit-ridge-mobile',
+        title: 'Summit Ridge Roofing Mobile',
+        category: 'Mobile UX',
+        tag: '5.0 ★ Rating • 1,850+ Homeowners',
+        cvrTag: '9.2% CVR',
+        image: landingMobileSummitRidgeRoofing,
+        description:
+          'Mobile-optimized flow through storm-risk education, service breakdowns, and local testimonials, built around one-tap calendar booking instead of contact forms.',
+        specs: {
+          stack: 'HTML, CSS, JavaScript',
+          responsiveness: 'Handheld & Tablet',
+          performance: 'Optimized Touch Interactions',
+        },
+      },
+      {
+        id: 'summit-ridge-booking',
+        title: 'Summit Ridge Roofing — Calendar Booking Flow',
+        category: 'Interactive Booking',
+        tag: 'Form-Free Booking',
+        cvrTag: '9.2% CVR',
+        image: landingTabletSummitRidgeRoofing,
+        description:
+          'Form-free 3-step process: lock in a calendar slot, receive a 35-minute on-site inspection, then get a same-day photo report with honest, itemized pricing.',
+        specs: {
+          stack: 'HTML, CSS, JavaScript',
+          responsiveness: 'Single-Screen Flow',
+          performance: 'Optimized Form-Free Booking',
+        },
+      },
+    ],
+  },
+];;
 
 export const workItems: WorkItem[] = [
   {
@@ -331,6 +398,20 @@ export const workItems: WorkItem[] = [
       stack: 'Next.js, Tailwind CSS',
       responsiveness: 'Desktop & Large Screen',
       performance: 'Core Web Vitals 98/100'
+    }
+  },
+  {
+    id: 'summit-ridge',
+    title: 'Summit Ridge Roofing',
+    category: 'Home Services / Residential Roofing',
+    collectionDate: '9.2% CVR',
+    priceTag: '9.2% CVR',
+    image: landingDesktopSummitRidgeRoofing,
+    description: 'Trust-first residential roofing landing page pairing storm-damage education with a free 21-point inspection offer.',
+    specs: {
+      stack: 'HTML, CSS, JavaScript',
+      responsiveness: 'Desktop & Large Screen',
+      performance: 'Optimized Desktop Experience'
     }
   }
 ];
