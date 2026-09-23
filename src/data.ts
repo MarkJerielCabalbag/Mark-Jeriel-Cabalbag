@@ -553,7 +553,7 @@ export const workItems: WorkItem[] = [
     }
   },
   {
-    id: 'harlow-pine',
+    id: 'harlow-pine ',
     title: 'Harlow & Pine',
     category: 'Real Estate / Broker-Appraiser Advisory',
     collectionDate: '$140M+ Closed',
