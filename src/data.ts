@@ -22,6 +22,10 @@ import landingDesktopSummitRidgeRoofing from './assets/images/landingDesktopSumm
 import landingTabletSummitRidgeRoofing from './assets/images/landingTabletSummitRidgeRoofing.jpeg';
 import landingMobileSummitRidgeRoofing from './assets/images/landingMobileSummitRidgeRoofing.jpeg';
 
+import landingDesktopFieldstoneLandscape from './assets/images/landingDesktopFieldstoneLandscape.jpeg';
+import landingTabletFieldstoneLandscape from './assets/images/landingTabletFieldstoneLandscape.jpeg';
+import landingMobileFieldstoneLandscape from './assets/images/landingMobileFieldstoneLandscape.jpeg';
+
 import certHtmlEssentials from './assets/images/html-cert.png';
 import certJsEssentials from './assets/images/js1-cert.png';
 import certCssEssentials from './assets/images/css-cert.png';
@@ -50,64 +54,6 @@ export const personalInfo = {
 
 
 export const featuredProjects: FeaturedLaunchProject[] = [
-  {
-    id: 'project-midnight-brew',
-    link: 'https://midnight-brew-red.vercel.app/',
-    name: 'Midnight Brew',
-    client: 'Midnight Brew',
-    category: 'Coffee & Hospitality',
-    badge: '5.8% CVR',
-    infoText:
-      'Editorial coffeehouse site pairing a dark, moody hero with a live reservation system and social-proof driven menu.',
-    highlightMetric: '5.8% CVR • 1.2k Reservations',
-    variations: [
-      {
-        id: 'midnight-brew-desktop',
-        title: 'Midnight Brew — Desktop Viewport',
-        category: 'Desktop Launch',
-        tag: '5.8% CVR • 1.2k Reservations',
-        cvrTag: '5.8% CVR',
-        image: landingDektopMidnightbrew,
-        description:
-          'Dark-mode hospitality landing page leading with hero storytelling, ethically-sourced bean credentials, and a curated menu grid.',
-        specs: {
-          stack: 'Next.js, Tailwind CSS',
-          responsiveness: 'Desktop & Large Screen',
-          performance: 'Core Web Vitals 97/100',
-        },
-      },
-      {
-        id: 'midnight-brew-mobile',
-        title: 'Midnight Brew Mobile',
-        category: 'Mobile UX',
-        tag: '4.6% Mobile CVR',
-        cvrTag: '4.6% CVR',
-        image: landingMobileMidnightbrew,
-        description:
-          'Mobile-first browsing flow through the menu and testimonials, optimized for thumb-zone scrolling and quick reservation access.',
-        specs: {
-          stack: 'Mobile Responsive Viewport',
-          responsiveness: 'Handheld & Tablet',
-          performance: 'Instant 0.3s TTI',
-        },
-      },
-      {
-        id: 'midnight-brew-reservations',
-        title: 'Midnight Brew — Reservation Flow',
-        category: 'Interactive Booking',
-        tag: '68% Booking Completion',
-        cvrTag: '68% Completion',
-        image: landingtabletMidnightbrew,
-        description:
-          'Embedded table-booking widget with live party-size and time-slot selection, synced through OpenTable.',
-        specs: {
-          stack: 'OpenTable Embed, React',
-          responsiveness: 'Single-Screen Flow',
-          performance: 'Real-time Slot Sync',
-        },
-      },
-    ],
-  },
   {
     id: 'project-coreos',
     link: 'https://core-os-eight.vercel.app/',
@@ -166,63 +112,120 @@ export const featuredProjects: FeaturedLaunchProject[] = [
       },
     ],
   },
-  {
-    id: 'project-vitality-circle',
-    link: 'https://markjerielcabalbag.github.io/Vitality-Circle/',
-    name: 'Vitality Circle',
-    client: 'Vitality Circle',
-    category: 'Health & Wellness / Senior Fitness',
-    badge: '7.4% CVR',
+    {
+    id: 'project-summit-ridge',
+    link: 'https://markjerielcabalbag.github.io/Summit-Ridge-Roofing/',
+    name: 'Summit Ridge Roofing',
+    client: 'Summit Ridge Roofing',
+    category: 'Home Services / Residential Roofing',
+    badge: '9.2% CVR',
     infoText:
-      'Warm, reassuring landing page for a small-group strength studio built for adults 55+, pairing empathetic problem/solution messaging with certified-trainer credibility and a free-session lead form.',
-    highlightMetric: '7.4% CVR • Free Session Bookings',
+      'Trust-first residential roofing landing page pairing storm-damage education with a free 21-point inspection offer, insurance claim assistance, and a form-free 3-step calendar booking flow.',
+    highlightMetric: '5.0 ★ Rating • 1,850+ Local Homeowners',
     variations: [
       {
-        id: 'vitality-circle-desktop',
-        title: 'Vitality Circle — Desktop Viewport',
+        id: 'summit-ridge-desktop',
+        title: 'Summit Ridge Roofing — Desktop Viewport',
         category: 'Desktop Launch',
-        tag: '7.4% CVR • Free Session Bookings',
-        cvrTag: '7.4% CVR',
-        image: landingDesktopVita,
+        tag: '5.0 ★ Rating • 1,850+ Homeowners',
+        cvrTag: '9.2% CVR',
+        image: landingDesktopSummitRidgeRoofing,
         description:
-          'Empathy-led hero and problem/solution sections addressing fall-risk and mobility concerns, backed by senior-fitness certification badges and doctor referral trust marks.',
+          'Craftsmanship-focused hero leading into a hidden roof-damage risk breakdown, service tiers, and a free 21-point on-site inspection offer built around direct calendar booking instead of lead forms.',
         specs: {
-          stack: 'Next.js, Tailwind CSS',
+          stack: 'HTML, CSS, JavaScript',
           responsiveness: 'Desktop & Large Screen',
-          performance: 'Core Web Vitals 95/100',
+          performance: 'Optimized Desktop Experience',
         },
       },
       {
-        id: 'vitality-circle-mobile',
-        title: 'Vitality Circle Mobile',
+        id: 'summit-ridge-mobile',
+        title: 'Summit Ridge Roofing Mobile',
         category: 'Mobile UX',
-        tag: '6.1% Mobile CVR',
-        cvrTag: '6.1% CVR',
-        image: landingTabletVita,
+        tag: '5.0 ★ Rating • 1,850+ Homeowners',
+        cvrTag: '9.2% CVR',
+        image: landingMobileSummitRidgeRoofing,
         description:
-          'Accessibility-first mobile layout with larger tap targets and high-contrast text, surfacing member testimonials and referral badges for an older audience.',
+          'Mobile-optimized flow through storm-risk education, service breakdowns, and local testimonials, built around one-tap calendar booking instead of contact forms.',
         specs: {
-          stack: 'Mobile Responsive Viewport, Accessibility-First',
+          stack: 'HTML, CSS, JavaScript',
           responsiveness: 'Handheld & Tablet',
-          performance: 'Instant 0.4s TTI',
+          performance: 'Optimized Touch Interactions',
         },
       },
       {
-        id: 'vitality-circle-booking',
-        title: 'Vitality Circle — Free Session Booking',
-        category: 'Interactive Lead Form',
-        tag: '74% Form Completion',
-        cvrTag: '74% Completion',
-        image: landingMobileVita,
+        id: 'summit-ridge-booking',
+        title: 'Summit Ridge Roofing — Calendar Booking Flow',
+        category: 'Interactive Booking',
+        tag: 'Form-Free Booking',
+        cvrTag: '9.2% CVR',
+        image: landingTabletSummitRidgeRoofing,
         description:
-          'Low-friction "Book My Free Session" flow with a three-step explainer, no-contract messaging, and a click-to-call fallback for direct phone bookings.',
+          'Form-free 3-step process: lock in a calendar slot, receive a 35-minute on-site inspection, then get a same-day photo report with honest, itemized pricing.',
         specs: {
-          stack: 'React, Form Validation',
+          stack: 'HTML, CSS, JavaScript',
+          responsiveness: 'Single-Screen Flow',
+          performance: 'Optimized Form-Free Booking',
+        },
+      },
+    ],
+  },
+  {
+    id: 'project-fieldstone-landscape',
+    link: 'https://markjerielcabalbag.github.io/Fieldstone-Landscape/',
+    name: 'Fieldstone Landscape',
+    client: 'Fieldstone Landscape',
+    category: 'Home Services / Masonry & Landscaping',
+    badge: '5.0 ★ Rating',
+    infoText:
+      'Craftsman-led masonry landing page for a stonemason-founded landscaping company, pairing freeze-thaw failure education with genuine Indiana limestone builds and a no-subcontractor, direct-to-founder booking flow.',
+    highlightMetric: '5.0 ★ Rating • 500+ Central Indiana Estates',
+    variations: [
+      {
+        id: 'fieldstone-landscape-desktop',
+        title: 'Fieldstone Landscape — Desktop Viewport',
+        category: 'Desktop Launch',
+        tag: '5.0 ★ Rating • 500+ Estates',
+        cvrTag: 'Zero Subcontractors',
+        image: landingDesktopFieldstoneLandscape,
+        description:
+          'Craftsmanship-focused hero leading into a "why standard landscaping fails" problem section, three masonry service pillars, and verified client proof from Hendricks County and Indianapolis estates.',
+        specs: {
+          stack: 'HTML, CSS, JavaScript',
+          responsiveness: 'Desktop & Large Screen',
+          performance: 'Optimized Desktop Experience',
+        },
+      },
+      {
+        id: 'fieldstone-landscape-mobile',
+        title: 'Fieldstone Landscape Mobile',
+        category: 'Mobile UX',
+        tag: '100% Indiana Limestone',
+        cvrTag: 'Dale On-Site Daily',
+        image: landingTabletFieldstoneLandscape,
+        description:
+          'Mobile-optimized flow through material-failure education, service pillars, and testimonials, built around a direct-call CTA to founder Dale Kowalski instead of long contact forms.',
+        specs: {
+          stack: 'Mobile Responsive Viewport',
+          responsiveness: 'Handheld & Tablet',
+          performance: 'Optimized Touch Interactions',
+        },
+      },
+      {
+        id: 'fieldstone-landscape-process',
+        title: 'Fieldstone Landscape — 3-Step Booking Process',
+        category: 'Interactive Booking',
+        tag: 'Form-Free Booking',
+        cvrTag: '14-Year Field Guarantee',
+        image: landingMobileFieldstoneLandscape,
+        description:
+          'Form-free 3-step process: a 5-minute call with the founder, a free 45-minute on-site laser survey, then a single-crew masonry build backed by a 14-year field guarantee.',
+        specs: {
+          stack: 'React, Interactive Grid',
           responsiveness: 'Single-Screen Flow',
           performance: 'Instant Field Validation',
         },
       },
-      
     ],
   },
   {
@@ -283,62 +286,121 @@ export const featuredProjects: FeaturedLaunchProject[] = [
       },
     ],
   },
-  {
-    id: 'project-summit-ridge',
-    link: 'https://markjerielcabalbag.github.io/Summit-Ridge-Roofing/',
-    name: 'Summit Ridge Roofing',
-    client: 'Summit Ridge Roofing',
-    category: 'Home Services / Residential Roofing',
-    badge: '9.2% CVR',
+    {
+    id: 'project-midnight-brew',
+    link: 'https://midnight-brew-red.vercel.app/',
+    name: 'Midnight Brew',
+    client: 'Midnight Brew',
+    category: 'Coffee & Hospitality',
+    badge: '5.8% CVR',
     infoText:
-      'Trust-first residential roofing landing page pairing storm-damage education with a free 21-point inspection offer, insurance claim assistance, and a form-free 3-step calendar booking flow.',
-    highlightMetric: '5.0 ★ Rating • 1,850+ Local Homeowners',
+      'Editorial coffeehouse site pairing a dark, moody hero with a live reservation system and social-proof driven menu.',
+    highlightMetric: '5.8% CVR • 1.2k Reservations',
     variations: [
       {
-        id: 'summit-ridge-desktop',
-        title: 'Summit Ridge Roofing — Desktop Viewport',
+        id: 'midnight-brew-desktop',
+        title: 'Midnight Brew — Desktop Viewport',
         category: 'Desktop Launch',
-        tag: '5.0 ★ Rating • 1,850+ Homeowners',
-        cvrTag: '9.2% CVR',
-        image: landingDesktopSummitRidgeRoofing,
+        tag: '5.8% CVR • 1.2k Reservations',
+        cvrTag: '5.8% CVR',
+        image: landingDektopMidnightbrew,
         description:
-          'Craftsmanship-focused hero leading into a hidden roof-damage risk breakdown, service tiers, and a free 21-point on-site inspection offer built around direct calendar booking instead of lead forms.',
+          'Dark-mode hospitality landing page leading with hero storytelling, ethically-sourced bean credentials, and a curated menu grid.',
         specs: {
-          stack: 'HTML, CSS, JavaScript',
+          stack: 'Next.js, Tailwind CSS',
           responsiveness: 'Desktop & Large Screen',
-          performance: 'Optimized Desktop Experience',
+          performance: 'Core Web Vitals 97/100',
         },
       },
       {
-        id: 'summit-ridge-mobile',
-        title: 'Summit Ridge Roofing Mobile',
+        id: 'midnight-brew-mobile',
+        title: 'Midnight Brew Mobile',
         category: 'Mobile UX',
-        tag: '5.0 ★ Rating • 1,850+ Homeowners',
-        cvrTag: '9.2% CVR',
-        image: landingMobileSummitRidgeRoofing,
+        tag: '4.6% Mobile CVR',
+        cvrTag: '4.6% CVR',
+        image: landingMobileMidnightbrew,
         description:
-          'Mobile-optimized flow through storm-risk education, service breakdowns, and local testimonials, built around one-tap calendar booking instead of contact forms.',
+          'Mobile-first browsing flow through the menu and testimonials, optimized for thumb-zone scrolling and quick reservation access.',
         specs: {
-          stack: 'HTML, CSS, JavaScript',
+          stack: 'Mobile Responsive Viewport',
           responsiveness: 'Handheld & Tablet',
-          performance: 'Optimized Touch Interactions',
+          performance: 'Instant 0.3s TTI',
         },
       },
       {
-        id: 'summit-ridge-booking',
-        title: 'Summit Ridge Roofing — Calendar Booking Flow',
+        id: 'midnight-brew-reservations',
+        title: 'Midnight Brew — Reservation Flow',
         category: 'Interactive Booking',
-        tag: 'Form-Free Booking',
-        cvrTag: '9.2% CVR',
-        image: landingTabletSummitRidgeRoofing,
+        tag: '68% Booking Completion',
+        cvrTag: '68% Completion',
+        image: landingtabletMidnightbrew,
         description:
-          'Form-free 3-step process: lock in a calendar slot, receive a 35-minute on-site inspection, then get a same-day photo report with honest, itemized pricing.',
+          'Embedded table-booking widget with live party-size and time-slot selection, synced through OpenTable.',
         specs: {
-          stack: 'HTML, CSS, JavaScript',
+          stack: 'OpenTable Embed, React',
           responsiveness: 'Single-Screen Flow',
-          performance: 'Optimized Form-Free Booking',
+          performance: 'Real-time Slot Sync',
         },
       },
+    ],
+  },
+    {
+    id: 'project-vitality-circle',
+    link: 'https://markjerielcabalbag.github.io/Vitality-Circle/',
+    name: 'Vitality Circle',
+    client: 'Vitality Circle',
+    category: 'Health & Wellness / Senior Fitness',
+    badge: '7.4% CVR',
+    infoText:
+      'Warm, reassuring landing page for a small-group strength studio built for adults 55+, pairing empathetic problem/solution messaging with certified-trainer credibility and a free-session lead form.',
+    highlightMetric: '7.4% CVR • Free Session Bookings',
+    variations: [
+      {
+        id: 'vitality-circle-desktop',
+        title: 'Vitality Circle — Desktop Viewport',
+        category: 'Desktop Launch',
+        tag: '7.4% CVR • Free Session Bookings',
+        cvrTag: '7.4% CVR',
+        image: landingDesktopVita,
+        description:
+          'Empathy-led hero and problem/solution sections addressing fall-risk and mobility concerns, backed by senior-fitness certification badges and doctor referral trust marks.',
+        specs: {
+          stack: 'Next.js, Tailwind CSS',
+          responsiveness: 'Desktop & Large Screen',
+          performance: 'Core Web Vitals 95/100',
+        },
+      },
+      {
+        id: 'vitality-circle-mobile',
+        title: 'Vitality Circle Mobile',
+        category: 'Mobile UX',
+        tag: '6.1% Mobile CVR',
+        cvrTag: '6.1% CVR',
+        image: landingTabletVita,
+        description:
+          'Accessibility-first mobile layout with larger tap targets and high-contrast text, surfacing member testimonials and referral badges for an older audience.',
+        specs: {
+          stack: 'Mobile Responsive Viewport, Accessibility-First',
+          responsiveness: 'Handheld & Tablet',
+          performance: 'Instant 0.4s TTI',
+        },
+      },
+      {
+        id: 'vitality-circle-booking',
+        title: 'Vitality Circle — Free Session Booking',
+        category: 'Interactive Lead Form',
+        tag: '74% Form Completion',
+        cvrTag: '74% Completion',
+        image: landingMobileVita,
+        description:
+          'Low-friction "Book My Free Session" flow with a three-step explainer, no-contract messaging, and a click-to-call fallback for direct phone bookings.',
+        specs: {
+          stack: 'React, Form Validation',
+          responsiveness: 'Single-Screen Flow',
+          performance: 'Instant Field Validation',
+        },
+      },
+      
     ],
   },
 ];;
@@ -408,6 +470,20 @@ export const workItems: WorkItem[] = [
     priceTag: '9.2% CVR',
     image: landingDesktopSummitRidgeRoofing,
     description: 'Trust-first residential roofing landing page pairing storm-damage education with a free 21-point inspection offer.',
+    specs: {
+      stack: 'HTML, CSS, JavaScript',
+      responsiveness: 'Desktop & Large Screen',
+      performance: 'Optimized Desktop Experience'
+    }
+  },
+  {
+    id: 'fieldstone-landscape',
+    title: 'Fieldstone Landscape',
+    category: 'Home Services / Masonry & Landscaping',
+    collectionDate: '5.0 ★ Rating',
+    priceTag: '5.0 ★ Rating',
+    image: landingDesktopFieldstoneLandscape,
+    description: 'Craftsman-led masonry landing page for a stonemason-founded landscaping company.',
     specs: {
       stack: 'HTML, CSS, JavaScript',
       responsiveness: 'Desktop & Large Screen',
