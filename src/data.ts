@@ -118,7 +118,7 @@ export const featuredProjects: FeaturedLaunchProject[] = [
   },
     {
     id: 'project-summit-ridge',
-    link: 'https://markjerielcabalbag.github.io/Summit-Ridge-Roofing/',
+    link: 'https://marklandingpages.github.io/Summit-Ridge-Roofing/',
     name: 'Summit Ridge Roofing',
     client: 'Summit Ridge Roofing',
     category: 'Home Services / Residential Roofing',
@@ -176,7 +176,7 @@ export const featuredProjects: FeaturedLaunchProject[] = [
   },
   {
     id: 'project-fieldstone-landscape',
-    link: 'https://markjerielcabalbag.github.io/Fieldstone-Landscape/',
+    link: 'https://marklandingpages.github.io/Fieldstone-Landscape/',
     name: 'Fieldstone Landscape',
     client: 'Fieldstone Landscape',
     category: 'Home Services / Masonry & Landscaping',
@@ -234,7 +234,7 @@ export const featuredProjects: FeaturedLaunchProject[] = [
   },
   {
     id: 'project-harlow-pine',
-    link: 'https://markjerielcabalbag.github.io/Harlow---Pine-Realty/',
+    link: 'https://marklandingpages.github.io/Harlow---Pine-Realty/',
     name: 'Harlow & Pine',
     client: 'Harlow & Pine Realty',
     category: 'Real Estate / Broker-Appraiser Advisory',
@@ -292,7 +292,7 @@ export const featuredProjects: FeaturedLaunchProject[] = [
   },
   {
     id: 'project-flowguard',
-    link: 'https://markjerielcabalbag.github.io/FlowGuard/',
+    link: 'https://marklandingpages.github.io/FlowGuard/',
     name: 'FlowGuard Co.',
     client: 'FlowGuard Co.',
     category: 'Home Services / Emergency Plumbing',
@@ -408,7 +408,7 @@ export const featuredProjects: FeaturedLaunchProject[] = [
   },
     {
     id: 'project-vitality-circle',
-    link: 'https://markjerielcabalbag.github.io/Vitality-Circle/',
+    link: 'https://marklandingpages.github.io/Vitality-Circle/',
     name: 'Vitality Circle',
     client: 'Vitality Circle',
     category: 'Health & Wellness / Senior Fitness',
