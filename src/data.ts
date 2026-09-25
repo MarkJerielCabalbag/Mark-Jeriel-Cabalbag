@@ -30,6 +30,10 @@ import landingDesktopHarlowPine from './assets/images/landingDesktopHarlow.jpeg'
 import landingTabletHarlowPine from './assets/images/landingTabletHarlow.jpeg';
 import landingMobileHarlowPine from './assets/images/landingMobileHarlow.jpeg';
 
+import landingDesktopMeridian from './assets/images/landingDesktopMeridian.jpg';
+import landingTabletMeridian from './assets/images/landingTabletMeridian.jpg';
+import landingMobileMeridian from './assets/images/landingMobileMeridian.jpg';
+
 import certHtmlEssentials from './assets/images/html-cert.png';
 import certJsEssentials from './assets/images/js1-cert.png';
 import certCssEssentials from './assets/images/css-cert.png';
@@ -112,6 +116,64 @@ export const featuredProjects: FeaturedLaunchProject[] = [
           stack: 'React, Framer Motion, Modal System',
           responsiveness: 'Comparison Canvas',
           performance: 'Instant Modal Transitions',
+        },
+      },
+    ],
+  },
+  {
+    id: 'project-meridian-solar',
+    link: 'https://marklandingpages.github.io/Meridian-Solar-Co/',
+    name: 'Meridian Solar',
+    client: 'Meridian Solar Co.',
+    category: 'Solar & Home Energy',
+    badge: '6.9% CVR',
+    infoText:
+      'Direct-to-engineer solar landing page for Phoenix-metro homeowners, leading with utility-bill pain points, licensed-electrician credibility, and a no-sales-rep free quote flow.',
+    highlightMetric: '6.9% CVR • 2,400+ Homes Powered',
+    variations: [
+      {
+        id: 'meridian-solar-desktop',
+        title: 'Meridian Solar — Desktop Viewport',
+        category: 'Desktop Launch',
+        tag: '6.9% CVR • 2,400+ Homes Powered',
+        cvrTag: '6.9% CVR',
+        image: landingDesktopMeridian,
+        description:
+          'Heat-focused problem/solution hero contrasting Phoenix summer utility bills against Meridian\u2019s fixed solar payment, backed by ROC licensing and NABCEP certification badges.',
+        specs: {
+          stack: 'Next.js, Tailwind CSS',
+          responsiveness: 'Desktop & Large Screen',
+          performance: 'Core Web Vitals 96/100',
+        },
+      },
+      {
+        id: 'meridian-solar-proof',
+        title: 'Meridian Solar — Verified Local Proof',
+        category: 'Social Proof Section',
+        tag: '2,400+ Homes · $3,800/yr Avg Savings',
+        cvrTag: '4.9/5.0 Rating',
+        image: landingTabletMeridian,
+        description:
+          'Before/after utility bill comparison cards with named customers, city, system size, and real APS/SRP savings figures to build hyperlocal trust.',
+        specs: {
+          stack: 'React, Custom Comparison Cards',
+          responsiveness: 'Handheld & Tablet',
+          performance: 'Instant 0.4s TTI',
+        },
+      },
+      {
+        id: 'meridian-solar-quote-form',
+        title: 'Meridian Solar — Free Quote & FAQ Flow',
+        category: 'Interactive Lead Form',
+        tag: '24-Hour Turnaround Assessment',
+        cvrTag: 'No-Sales-Rep Positioning',
+        image: landingMobileMeridian, 
+        description:
+          'Low-friction "Get My Free Quote" CTA paired with an expandable FAQ accordion and direct-call fallback to licensed electrician Owen Baptiste.',
+        specs: {
+          stack: 'React, Accordion UI, Form Validation',
+          responsiveness: 'Single-Screen Flow',
+          performance: 'Instant Field Validation',
         },
       },
     ],
@@ -564,6 +626,20 @@ export const workItems: WorkItem[] = [
       stack: 'HTML, CSS, JavaScript',
       responsiveness: 'Desktop & Large Screen',
       performance: 'Optimized Desktop Experience'
+    }
+  },
+  {
+    id: 'meridian-solar',
+    title: 'Meridian Solar',
+    category: 'Solar & Home Energy',
+    collectionDate: '6.9% CVR',
+    priceTag: '6.9% CVR',
+    image: landingDesktopMeridian,
+    description: 'Direct-to-engineer solar landing page for Phoenix-metro homeowners.',
+    specs: {
+      stack: 'Next.js, Tailwind CSS',
+      responsiveness: 'Desktop & Large Screen',
+      performance: 'Core Web Vitals 96/100'
     }
   }
 ];
