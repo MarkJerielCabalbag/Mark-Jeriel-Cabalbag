@@ -34,6 +34,10 @@ import landingDesktopMeridian from './assets/images/landingDesktopMeridian.jpg';
 import landingTabletMeridian from './assets/images/landingTabletMeridian.jpg';
 import landingMobileMeridian from './assets/images/landingMobileMeridian.jpg';
 
+import landingDesktopRoadrunner from './assets/images/landingDesktopRoadrunner.jpg';
+import landingTabletRoadrunner from './assets/images/landingTabletRoadrunner.jpg';
+import landingMobileRoadrunner from './assets/images/landingMobileRoadrunner.jpg';
+
 import certHtmlEssentials from './assets/images/html-cert.png';
 import certJsEssentials from './assets/images/js1-cert.png';
 import certCssEssentials from './assets/images/css-cert.png';
@@ -290,6 +294,63 @@ export const featuredProjects: FeaturedLaunchProject[] = [
           stack: 'React, Interactive Grid',
           responsiveness: 'Single-Screen Flow',
           performance: 'Instant Field Validation',
+        },
+      },
+    ],
+  },
+  {
+    id: 'project-roadrunner-rv',
+    name: 'Roadrunner RV',
+    client: 'Roadrunner Mobile RV Care',
+    category: 'Mobile Service / Field Dispatch',
+    badge: '5.4% CVR',
+    infoText:
+      'Local service landing page for a mobile RV repair business, contrasting dealership wait times and towing costs against on-site dispatch, backed by verified customer work orders.',
+    highlightMetric: '5.4% CVR • Same-Day Dispatch',
+    variations: [
+      {
+        id: 'roadrunner-rv-desktop',
+        title: 'Roadrunner RV — Desktop Viewport',
+        category: 'Desktop Launch',
+        tag: '5.4% CVR • Same-Day Dispatch',
+        cvrTag: '5.4% CVR',
+        image: landingDesktopRoadrunner, 
+        description:
+          'Problem/solution hero contrasting dealership backlogs and towing costs against zero-towing mobile dispatch, led by ASE-certified technician credibility.',
+        specs: {
+          stack: 'Next.js, Tailwind CSS',
+          responsiveness: 'Desktop & Large Screen',
+          performance: 'Core Web Vitals 96/100',
+        },
+      },
+      {
+        id: 'roadrunner-rv-services',
+        title: 'Roadrunner RV — Core Service Packages',
+        category: 'Service Selector',
+        tag: '6 Service Categories',
+        cvrTag: 'Flat-Rate Pricing',
+        image: landingTabletRoadrunner, 
+        description:
+          'Tabbed service package selector (A/C, 12V/solar, slide-outs, plumbing, seasonal inspection, emergency dispatch) surfacing diagnostics, stocked parts, and turnaround time per package.',
+        specs: {
+          stack: 'React, Tabbed UI',
+          responsiveness: 'Adaptive Grid Layout',
+          performance: 'Instant Tab Switching',
+        },
+      },
+      {
+        id: 'roadrunner-rv-proof',
+        title: 'Roadrunner RV — Verified Work Orders',
+        category: 'Social Proof Section',
+        tag: '4 Verified Work Orders',
+        cvrTag: '100% On-Site Dispatch',
+        image: landingMobileRoadrunner, 
+        description:
+          'Named customer work-order cards detailing RV make/model, location, and repair type to build hyperlocal, specificity-driven trust with snowbird and full-time RVer audiences.',
+        specs: {
+          stack: 'React, Custom Testimonial Cards',
+          responsiveness: 'Handheld & Tablet',
+          performance: 'Instant 0.4s TTI',
         },
       },
     ],
@@ -636,6 +697,20 @@ export const workItems: WorkItem[] = [
     priceTag: '6.9% CVR',
     image: landingDesktopMeridian,
     description: 'Direct-to-engineer solar landing page for Phoenix-metro homeowners.',
+    specs: {
+      stack: 'Next.js, Tailwind CSS',
+      responsiveness: 'Desktop & Large Screen',
+      performance: 'Core Web Vitals 96/100'
+    }
+  },
+  {
+    id: 'roadrunner-rv',
+    title: 'Roadrunner RV',
+    category: 'Mobile Service / Field Dispatch',
+    collectionDate: '5.4% CVR',
+    priceTag: '5.4% CVR',
+    image: landingDesktopRoadrunner,
+    description: 'Local service landing page for a mobile RV repair business.',
     specs: {
       stack: 'Next.js, Tailwind CSS',
       responsiveness: 'Desktop & Large Screen',
