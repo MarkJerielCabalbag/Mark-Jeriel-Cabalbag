@@ -300,6 +300,7 @@ export const featuredProjects: FeaturedLaunchProject[] = [
   },
   {
     id: 'project-roadrunner-rv',
+        link: 'https://marklandingpages.github.io/Roadrunner/',
     name: 'Roadrunner RV',
     client: 'Roadrunner Mobile RV Care',
     category: 'Mobile Service / Field Dispatch',
@@ -706,7 +707,6 @@ export const workItems: WorkItem[] = [
   {
     id: 'roadrunner-rv',
     title: 'Roadrunner RV',
-    link: 'https://marklandingpages.github.io/Roadrunner/',
     category: 'Mobile Service / Field Dispatch',
     collectionDate: '5.4% CVR',
     priceTag: '5.4% CVR',
